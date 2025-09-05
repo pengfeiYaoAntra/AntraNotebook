@@ -36,6 +36,8 @@ public class BenchController {
                                        @RequestParam int min,
                                        @RequestParam int max,
                                        @RequestParam(defaultValue = "5") int iterations) {
+
+        // do something else
         return svc.bench(city, min, max, iterations);
     }
 
