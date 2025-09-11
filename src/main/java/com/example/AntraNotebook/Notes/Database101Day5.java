@@ -190,6 +190,14 @@ package com.example.AntraNotebook.Notes;
  *             (this is after event trigger happens)
  *
  *
+ *          for update/ insert write query
+ *          1-4 are same
+ *          5: extra steps
+     *          1: redo log
+     *          2: bin log
+     *          3: undo log
+ *
+ *
  *          5: last step: store value in database
  *
  *
